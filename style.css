@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20230411/pngtree-nature-forest-sun-ecology-image_2256183.jpg");
+    background-size: cover;
+    position: absolute;
+    
+}
+ .Container1{
+    border: 2px solid  green;
+    border-radius: 50px;
+    padding: 50px;
+    background-color: rgba(36, 122, 36, 0.123);
+    flex-direction: column;
+    display: flex;
+ } 
+ button{
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+color: rgba(15, 78, 15, 0.856);
+ font-family: Georgia, 'Times New Roman', Times, serif;
+
+ }  
+label{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: 700;
+color: rgba(15, 78, 15, 0.856);
+}
+input{
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ height: 30px;
+ width: 200px;
+ border-radius: 10px;
+ color: rgba(15, 78, 15, 0.856);
+
+}
